@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
+
+ul, a {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-size: 12px;
+    color: #333333;
+    font-family: sans-serif;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #F3D7B7;
+    padding-top: 22px;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+.one p {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+
+button {
+    width: 193px;
+    height: 51px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #0A775F;
+    font-size: 16px;
+    color: white;
+}
+
+.one {
+    background-color: #F3D7B7;
+    display: flex;
+    justify-content: space-between;
+    height: 754px;
+}
+
+.wrapper {
+    margin-left: 120px;
+    padding-top: 130px;
+}
+
+.dream {
+    transform: translate(0px, 130px);
+    position: relative;
+}
+
+.boss {
+    position: absolute;
+    right: 640px;
+    top: 80px;
+    animation-name: rot;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+h2 {
+    padding-top: 170px;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.mini-mini h3 {
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.mini-mini p {
+    font-family: sans-serif;
+    color: #333333;
+    font-size: 22px;
+}
+
+.mini-second-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.second-wrapper {
+    margin-left: 163px;
+    margin-top: 42px;
+    margin-bottom: 89px;
+}
+
+.mini-mini {
+    margin-left: 135px;
+}
+
+footer {
+    height: 160px;
+    background-color: #F3D7B7;
+
+}
+
+.footer {
+display: flex;
+align-items: center;
+height: 100%;
+}
+
+.new {
+margin-left: 254px;
+margin-right: 331px;
+}
+
+.new a {
+    font-size: 16px;
+}
+
+.imgs {
+    display: flex;
+    gap: 30px;
+}
+
+.back {
+    background-image: url('Rectangle\ 679.png');
+    width: 660px;
+    height: 390px;
+    position: relative;
+    margin-top: 135px;
+    margin-right: 90px;
+}
+
+.not-boss {
+    animation-name: rot;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    position: absolute;
+    right: calc(100% - 100px);
+    bottom: calc(100% - 100px);
+}
+
+.one .ss {
+    margin-top: 75px;
+}
+
+.s {
+    height: 672px;
+}
+
+.second-two {
+height: 740px;
+padding-top: 160px;
+padding-left: 55.6px;
+padding-right: 53.21px;
+display: flex;
+justify-content: space-between;
+}
+
+.cup {
+    width: 371px;
+    height: 364px;
+}
+
+.s-wrapper h4 {
+    font-size: 48px;
+    font-family: sans-serif;
+    margin-bottom: 64px;
+}
+
+.s-wrapper p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #333333;
+    line-height: 30px;
+}
+
+.last-section {
+    background-color: #C99B67;
+    height: 510px;
+    padding-left: 50px;
+    padding-top: 109px;
+    padding-right: 54px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-wrapper h4 {
+color: white;
+font-size: 50px;
+font-family: sans-serif;
+margin-bottom: 28px;
+}
+
+.last-wrapper p {
+color: white;
+font-size: 18px;
+font-family: sans-serif;
+line-height: 30px;
+}
+
+.ng {
+    width: 566px;
+    height: 552px;
+    transform: translate(0px, -300px);
+}
